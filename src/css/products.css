@@ -1,0 +1,56 @@
+/* ===========================
+   Products Container
+=========================== */
+
+.products-container{
+    width: 95%;
+    max-width: 1400px;
+    margin: 40px auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+
+    padding: 20px;
+}
+
+/* Animation */
+
+.products-container > *{
+    animation: fadeUp .6s ease;
+}
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+
+/* Tablet */
+
+@media(max-width:992px){
+
+    .products-container{
+        grid-template-columns:repeat(2,1fr);
+        gap:20px;
+    }
+
+}
+
+/* Mobile */
+
+@media(max-width:700px){
+
+    .products-container{
+        grid-template-columns:1fr;
+        width:95%;
+        padding:10px;
+    }
+
+}

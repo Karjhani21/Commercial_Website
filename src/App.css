@@ -1,0 +1,244 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    color:#333;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+.container{
+    min-height:80vh;
+}
+
+/* Navbar */
+
+.navbar{
+
+    background:#2563eb;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 50px;
+
+}
+
+.menu{
+
+    display:flex;
+
+    gap:25px;
+
+}
+
+.menu a:hover{
+
+    color:yellow;
+
+}
+
+/* Hero */
+
+.hero{
+
+    background:white;
+
+    text-align:center;
+
+    padding:70px 20px;
+
+}
+
+.hero h1{
+
+    font-size:45px;
+
+    margin-bottom:15px;
+
+}
+
+.hero p{
+
+    font-size:20px;
+
+    margin-bottom:25px;
+
+}
+
+button{
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 25px;
+
+    cursor:pointer;
+
+    border-radius:6px;
+
+}
+
+button:hover{
+
+    background:#1e40af;
+
+}
+
+/* Titles */
+
+.title{
+
+    text-align:center;
+
+    margin:40px;
+
+}
+
+/* Cards */
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:20px;
+
+    padding:20px 60px;
+
+}
+
+.card{
+
+    background:white;
+
+    padding:25px;
+
+    text-align:center;
+
+    border-radius:10px;
+
+    box-shadow:0 3px 8px rgba(0,0,0,.1);
+
+}
+
+.card:hover{
+
+    transform:translateY(-5px);
+
+    transition:.3s;
+
+}
+
+/* CTA */
+
+.cta{
+
+    background:#2563eb;
+
+    color:white;
+
+    text-align:center;
+
+    padding:60px;
+
+    margin-top:40px;
+
+}
+
+.cta h2{
+
+    margin-bottom:20px;
+
+}
+
+/* Footer */
+
+.footer{
+
+    background:#1e293b;
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+}
+
+/* Pages */
+
+.page{
+
+    text-align:center;
+
+    padding:80px;
+
+}
+
+.page h1{
+
+    margin-bottom:15px;
+
+}
+
+/* Active Menu */
+
+.active{
+
+    color:yellow;
+
+    font-weight:bold;
+
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.navbar{
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+.menu{
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+}
+
+.hero h1{
+
+font-size:32px;
+
+}
+
+.cards{
+
+padding:20px;
+
+}
+
+}
