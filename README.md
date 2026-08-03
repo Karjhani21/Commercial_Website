@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,65 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Ex02 Commercial Website
+## Date:
+
+## AIM
+To create a commercial website using CSS Flexbox.
+
+## ALGORITHM
+### STEP 1
+Create an HTML file (index.html)
+
+### STEP 2
+Create a CSS file (style.css)
+
+### STEP 3
+Include a navigation bar with links to different sections.
+
+### STEP 4
+Add structured sections for Homepage, Products / Services, About Us, Contact Details and User Account.
+
+### STEP 5
+Include social media links at the footer with copyright information.
+
+### STEP 6
+Define global styles for fonts, colors, and layout.
+
+### STEP 7
+Style the header, navigation bar, and sections.
+
+### STEP 8
+Use Flexbox for layout design.
+
+### STEP 9
+Add hover effects and transitions for interactivity.
+
+### STEP 10
+Add Images and Media.
+
+### STEP 11
+Use optimized images for a professional look.
+
+### STEP 12
+Open the HTML file in a browser to check layout and functionality.
+
+### STEP 13
+Fix styling issues and refine content placement.
+
+### STEP 14
+Deploy the website.
+
+### STEP 15
+Upload to GitHub Pages for free hosting.
+
+## PROGRAM
+
+
+## OUTPUT
+
+
+## RESULT
+The program for creating commercial website using CSS Flexbox is executed successfully.
+>>>>>>> aa0d47b93c5f2b16ead3adfc4aa84d8735a69af8
