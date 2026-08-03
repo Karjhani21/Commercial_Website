@@ -1,6 +1,6 @@
 
 # Ex02 Commercial Website
-## Date:
+## Date:03.08.2026
 
 ## AIM
 To create a commercial website using CSS Flexbox.
@@ -55,6 +55,12 @@ Upload to GitHub Pages for free hosting.
 
 
 ## OUTPUT
+
+<img width="1905" height="1026" alt="Screenshot 2026-08-03 225126" src="https://github.com/user-attachments/assets/ae2ed6b8-132f-4a0d-8de9-629a3fafb5f3" />
+
+
+<img width="1905" height="923" alt="Screenshot 2026-08-03 225140" src="https://github.com/user-attachments/assets/bf5a3b8b-9489-4656-a6f6-33704be0cd30" />
+
 
 
 
